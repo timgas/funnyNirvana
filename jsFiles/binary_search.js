@@ -16,5 +16,6 @@ function binary_search(list, item) {
 		else low = mid + 1; 	
 	}
 }
+// test coment
 let array = [1, 3, 4, 5, 8, 9, 11, 13, 14, 15,16 ,17, 19, 21, 23, 25];
 binary_search(array, 3);
