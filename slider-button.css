@@ -1,0 +1,116 @@
+/*========JS======*/
+
+.c-hamburger {
+	position: absolute;
+	right: 0;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #FF7400;
+    font-size: 0;
+    text-align: center;
+    border: none;
+	cursor: pointer;
+}
+
+.c-hamburger:focus {
+	outline: none;
+}
+
+.c-hamburger span {
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	right: 20px;
+	height: 8px;
+	background: #fff;
+}
+
+.c-hamburger span::before, .c-hamburger span::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 8px;
+	left: 0;
+	background: #fff;
+}
+
+.c-hamburger span::before {
+	top: -20px;
+}
+
+.c-hamburger span::after {
+	bottom: -20px;
+}
+ 
+
+.c-hamburger-line span {
+	transition: background 0s 0.3s;
+}
+
+.c-hamburger-line span::before, .c-hamburger-line span::after {
+	transition-duration: 0.3s, 0.3s;
+	transition-delay: 0.3s, 0s;
+}
+
+.c-hamburger-line span::before {
+	transition-property: top, transform;
+}
+
+.c-hamburger-line span::after {
+	transition-property: bottom, transform;
+}
+
+.c-hamburger-line.is-active {
+	background: green;
+}
+
+.c-hamburger-line.is-active span {
+	background: none;
+}
+
+.c-hamburger-line.is-active span::before {
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+.c-hamburger-line.is-active span::after {
+	bottom: 0;
+	transform: rotate(45deg);
+}
+
+.c-hamburger-line.is-active span::before,
+.c-hamburger-line.is-active span::after {
+	transition-delay: 0s, 0.33s ;
+}
+
+#menu {
+	width: 300px;
+	background: grey;
+	margin-left: -200px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	transition: all ease 2s;
+	z-index: 9999;
+}
+
+.container--i {
+	width: 80%;
+	min-width: 1000px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.body-active {
+	margin-left: 300px;
+}
+
+#menu.nav-active {
+	margin-left: 0;
+}
