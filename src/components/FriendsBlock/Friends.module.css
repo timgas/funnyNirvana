@@ -1,0 +1,5 @@
+.elem {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+}

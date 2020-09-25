@@ -1,0 +1,14 @@
+.item {
+    color: yellow;
+    margin-top: 10px;
+}
+
+span {
+    font-size: 10px;
+}
+
+.item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+}
