@@ -1,0 +1,31 @@
+.form-action {
+    border: 1px solid yellowgreen;
+}
+
+.img_action {
+    width: 400px;
+    height: 400px;
+}
+
+.form_type {
+    position: absolute;
+    top: 94px;
+    left: 163px;
+    font-size: 22px;
+    background: lavender;
+    width: 161px;
+    height: 116px;
+}
+
+.form_button input {
+    border: 0;
+    color: black;
+    width: 150px;
+    height: 40px;
+    background: aqua;
+}
+
+.result {
+    font-size: 22px;
+    background: green;
+}

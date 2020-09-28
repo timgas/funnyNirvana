@@ -1,0 +1,34 @@
+[
+    {
+        "amount": 5,
+        "nominal": 1000
+    },
+    {
+        "amount": 5,
+        "nominal": 500
+    },
+    {
+        "amount": 5,
+        "nominal": 200
+    },
+    {
+        "amount": 3,
+        "nominal": 100
+    },
+    {
+        "amount": 3,
+        "nominal": 50
+    },
+    {
+        "amount": 1,
+        "nominal": 20
+    },
+    {
+        "amount": 2,
+        "nominal": 10
+    },
+    {
+        "amount": 2,
+        "nominal": 5
+    }
+]
