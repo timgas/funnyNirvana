@@ -50,7 +50,7 @@ CREATE TABLE IF NOT EXISTS `amounts` (
   `quantity` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `cashbox_id` (`cashbox_id`,`value`),
-  CONSTRAINT `FK_amounts_cashbox` FOREIGN KEY (`cashbox_id`) REFERENCES `cashbox` (`id`)
+  CONSTRAINT `FK_amounts_cashbox` FOREIGN KEY (`cashbox_id`) REFERENCES `cashboxs` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dumping data for table hw.amounts: ~7 rows (приблизно)
@@ -65,8 +65,8 @@ INSERT INTO `amounts` (`id`, `cashbox_id`, `value`, `quantity`) VALUES
 	(7, 3, 500, 500);
 /*!40000 ALTER TABLE `amounts` ENABLE KEYS */;
 
--- Dumping structure for таблиця hw.cashbox
-CREATE TABLE IF NOT EXISTS `cashbox` (
+-- Dumping structure for таблиця hw.cashboxs
+CREATE TABLE IF NOT EXISTS `cashboxs` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `city` varchar(30) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `model` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -76,13 +76,13 @@ CREATE TABLE IF NOT EXISTS `cashbox` (
   CONSTRAINT `FK_cashbox_currencies` FOREIGN KEY (`currency_id`) REFERENCES `currencies` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Dumping data for table hw.cashbox: ~3 rows (приблизно)
-/*!40000 ALTER TABLE `cashbox` DISABLE KEYS */;
-INSERT INTO `cashbox` (`id`, `city`, `model`, `currency_id`) VALUES
+-- Dumping data for table hw.cashboxs: ~3 rows (приблизно)
+/*!40000 ALTER TABLE `cashboxs` DISABLE KEYS */;
+INSERT INTO `cashboxs` (`id`, `city`, `model`, `currency_id`) VALUES
 	(1, 'Poltava-centr', 'zks10540', 1),
 	(2, 'Poltava-ognivka', 'fks10550', 2),
 	(3, 'Poltava-sady', 'fs43132', 3);
-/*!40000 ALTER TABLE `cashbox` ENABLE KEYS */;
+/*!40000 ALTER TABLE `cashboxs` ENABLE KEYS */;
 
 -- Dumping structure for таблиця hw.currencies
 CREATE TABLE IF NOT EXISTS `currencies` (
@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `logs` (
   KEY `FK_logs_cashbox` (`cashbox_id`),
   KEY `FK_logs_accounts` (`account_id`),
   CONSTRAINT `FK_logs_accounts` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`),
-  CONSTRAINT `FK_logs_cashbox` FOREIGN KEY (`cashbox_id`) REFERENCES `cashbox` (`id`)
+  CONSTRAINT `FK_logs_cashbox` FOREIGN KEY (`cashbox_id`) REFERENCES `cashboxs` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dumping data for table hw.logs: ~12 rows (приблизно)
@@ -139,7 +139,8 @@ CREATE TABLE IF NOT EXISTS `users` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `age` int(10) unsigned NOT NULL DEFAULT '18',
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- Dumping data for table hw.users: ~4 rows (приблизно)
