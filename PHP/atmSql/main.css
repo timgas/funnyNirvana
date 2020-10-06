@@ -1,0 +1,67 @@
+input, a {
+    font: inherit;
+
+}
+
+.img_atm {
+    width: 400px;
+    height: 400px;
+}
+
+.form-group {
+    position: absolute;
+    top: 94px;
+    left: 163px;
+    font-size: 14px;
+    background: lavender;
+    width: 161px;
+    height: 116px;
+}
+
+ .form-group input {
+    width: 155px;
+     height: 52px;
+}
+
+.form_btn {
+    position: absolute;
+    top: 238px;
+    left: 205px;
+    background: darkorange;
+    border: 1px solid black;
+    width: 130px;
+    height: 99px;
+    cursor: pointer;
+}
+
+.form_btn:hover {
+    display: block;
+    color: white;
+    background: red;
+}
+
+.current_amount {
+    font-size: 22px;
+}
+.btn_a a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_a {
+    border: 1px solid darkslategrey;
+    display: block;
+    background: #81ff6a;
+    cursor: pointer;
+    width: 150px;
+    height: 100px;
+}
+
+
+.btn_a:hover {
+    background: crimson;
+}
+
+.body {
+    border: 1px solid black; font-size: 22px;
+}

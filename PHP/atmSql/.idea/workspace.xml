@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67eeac78-feeb-4f96-bb13-9832b0332b3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/atm-insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bankomat/new_data.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="atmSql" id="8a7dc60f-927c-4e1e-a364-9c1ad19755f1" name="atmSql" />
+    </servers>
+  </component>
+  <component name="ProjectId" id="1iParkndM2rGL5mYh9yolJjxX8R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Xdebug" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="atmSql" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" filter_connections="FILTER" server_name="atmSql" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67eeac78-feeb-4f96-bb13-9832b0332b3c" name="Default Changelist" comment="" />
+      <created>1601811881502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601811881502</updated>
+      <workItem from="1601811882594" duration="62747000" />
+      <workItem from="1601934462739" duration="43000" />
+      <workItem from="1601961080337" duration="3387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="272" y="38" key="#Servers" timestamp="1601822716893">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="272" y="38" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1601822716893" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601827303954">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601827303954" />
+    <state width="455" height="438" key="DebuggerActiveHint" timestamp="1601924844537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="455" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1601924844537" />
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1601934387837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601934387837" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1601934387836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601934387836" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1601934387836">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601934387836" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1601934387837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601934387837" />
+    <state width="1323" height="140" key="GridCell.Tab.1.bottom" timestamp="1601934387837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601934387837" />
+    <state width="1323" height="140" key="GridCell.Tab.1.center" timestamp="1601934387837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601934387837" />
+    <state width="1323" height="140" key="GridCell.Tab.1.left" timestamp="1601934387837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601934387837" />
+    <state width="1323" height="140" key="GridCell.Tab.1.right" timestamp="1601934387837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="140" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601934387837" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1601822380355">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601822380355" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1601881679549">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1601881679549" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601903443506">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601903443506" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/bank/index.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://D:/PHP_GITHUB/Backend-2020/Code/L05/data-insert.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/atm-insert.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/atm-insert.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PhpRemoteDebugRunConfigurationType">
+        <watch expression="$dataRow[&quot;amount&quot;]" language="PHP" />
+        <watch expression="$dataRow[&quot;nominal&quot;]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
